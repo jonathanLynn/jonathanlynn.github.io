@@ -17,10 +17,10 @@ coming soon!
 
 ## CheatSheets
 
-coming soon!
+* BGP CheatSheet (coming soon!)
 
 ## Publications
 
-coming soon!
+* Palo Alto PAN-OS CLI Guide (coming soon!)
 
 * * *
