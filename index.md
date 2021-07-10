@@ -4,7 +4,7 @@ layout: default
 
 # Blog Posts
 
-* [Your Automation Journey Can Start Anywhere!](./blog-2021-startyourautomationjourney.html)
+* [2021 Mar - Your Automation Journey Can Start Anywhere](./blog-2021-startyourautomationjourney.html)
 
 # CheatSheets
 
