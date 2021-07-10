@@ -2,19 +2,21 @@
 layout: default
 ---
 
-# Blog Posts
+#Home Page
+
+## Blog Posts
 
 * [2021 Mar - Your Automation Journey Can Start Anywhere](./blog-2021-startyourautomationjourney.html)
 
-# Videos
+## Videos
 
 coming soon!
 
-# CheatSheets
+## CheatSheets
 
 coming soon!
 
-# Publications
+## Publications
 
 coming soon!
 
