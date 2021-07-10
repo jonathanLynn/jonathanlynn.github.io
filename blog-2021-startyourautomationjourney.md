@@ -20,7 +20,7 @@ If your like me, than you probably have a bunch of standard configuration comman
 
 By templating your commands with JINJA2 you’ll immediately see the sky is the limit when it comes to where those commands can be run from. Whether you push those templates to another Python Library like pyATS / netmiko or simply document them for other team members, you’ll quickly see the benefits of “codifying” those CLI commands at an early stage.
 
-###Create Tooling for your Team
+### Create Tooling for your Team
 
 As a Senior Engineer, whenever I see a team member create a little tool or even a dashboard I get all jittery and excited. In my opinion, enabling your team is a selfless task that is often forgotten about. This is something I recommend you do (regardless of where you are along your automation journey) as it will get you working with other frameworks and you’ll be one step closer to a more automated and programmatic environment.
 
