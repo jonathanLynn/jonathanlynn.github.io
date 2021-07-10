@@ -6,9 +6,13 @@ layout: default
 
 * [2021 Mar - Your Automation Journey Can Start Anywhere](./blog-2021-startyourautomationjourney.html)
 
+# Videos
+
+coming soon!
+
 # CheatSheets
 
-* [This is a Blog Post](./blogpost-1.html).
+coming soon!
 
 # Publications
 
