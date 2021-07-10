@@ -2,24 +2,24 @@
 layout: default
 ---
 
-# Home Page
+# Thanks for visiting my blog.
 * * *
 
+##Content:
 
-
-## Blog Posts
+### Blog Posts
 
 * [2021 Mar - Your Automation Journey Can Start Anywhere](./blog-2021-startyourautomationjourney.html)
 
-## Videos
+### Videos
 
 coming soon!
 
-## CheatSheets
+### CheatSheets
 
 * BGP CheatSheet (coming soon!)
 
-## Publications
+### Publications
 
 * Palo Alto PAN-OS CLI Guide (coming soon!)
 
