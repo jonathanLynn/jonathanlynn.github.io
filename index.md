@@ -14,7 +14,7 @@ My name is Jonathan and I'm the proud owner of this fine website. The goal of th
 
 ## CheatSheets
 
-[This is a Blog Post](./blogpost-1.html).
+* [This is a Blog Post](./blogpost-1.html).
 
 * * *
 
