@@ -3,6 +3,9 @@ layout: default
 ---
 
 # Home Page
+* * *
+
+
 
 ## Blog Posts
 
