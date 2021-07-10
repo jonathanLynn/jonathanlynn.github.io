@@ -6,6 +6,8 @@ layout: default
 
 My name is Jonathan and I'm the proud owner of this fine website. The goal of this blog is to document and share my learnings as an ICT Network & Security Professional. You'll find that the design is fairly minimal and straight forward designed to be accessibe by all.
 
+* * *
+
 ## Blog Posts
 
 * [Your Automation Journey Can Start Anywhere!](./blog-2021-startyourautomationjourney.html)
@@ -13,6 +15,8 @@ My name is Jonathan and I'm the proud owner of this fine website. The goal of th
 ## CheatSheets
 
 [This is a Blog Post](./blogpost-1.html).
+
+* * *
 
 There should be whitespace between paragraphs.
 
