@@ -1,3 +1,5 @@
+[Back to Home](./)
+
 # Your Automation Journey can start anywhere!
 
 So you want to automate all the things in your network? Great! more and more enterprises are realizing the benefits of automating the network and are demanding more from their engineering staff. You’re also probably thinking about your career as well and how these automation skills will really come in handy to progress your career. Like I said, Network Automation skills are in high demand now.
@@ -21,3 +23,5 @@ By templating your commands with JINJA2 you’ll immediately see the sky is the 
 ###Create Tooling for your Team
 
 As a Senior Engineer, whenever I see a team member create a little tool or even a dashboard I get all jittery and excited. In my opinion, enabling your team is a selfless task that is often forgotten about. This is something I recommend you do (regardless of where you are along your automation journey) as it will get you working with other frameworks and you’ll be one step closer to a more automated and programmatic environment.
+
+[Back to Home](./)
