@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Thanks for visiting my blog.
+# Thanks for Visiting.
 * * *
 
 ### Blog Posts
