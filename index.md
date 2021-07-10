@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#Home Page
+# Home Page
 
 ## Blog Posts
 
