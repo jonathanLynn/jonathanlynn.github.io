@@ -2,17 +2,11 @@
 layout: default
 ---
 
-# Hi and Thanks for checking out my blog.
-
-My name is Jonathan and I'm the proud owner of this fine website. The goal of this blog is to document and share my learnings as an ICT Network & Security Professional. You'll find that the design is fairly minimal and straight forward designed to be accessibe by all.
-
-* * *
-
-## Blog Posts
+# Blog Posts
 
 * [Your Automation Journey Can Start Anywhere!](./blog-2021-startyourautomationjourney.html)
 
-## CheatSheets
+# CheatSheets
 
 * [This is a Blog Post](./blogpost-1.html).
 
