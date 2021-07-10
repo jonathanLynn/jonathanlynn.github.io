@@ -1,6 +1,6 @@
 title: Jonathan Lynn
 logo: /assets/img/logo.png
 description: A blog that contains my professional work.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
