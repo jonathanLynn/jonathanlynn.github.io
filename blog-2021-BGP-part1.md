@@ -1,3 +1,5 @@
+[Back to Home](./)
+
 For a while I've wanted to sit down and dive into the BGP RFC. This post is a little deep dive of my own into the 
 best path selection critiera.
 
@@ -54,5 +56,4 @@ feasible routes. These set of routes are injected into the Loc-RIB and are then 
 the router will then send an "UPDATE" message to its other peers where they will perform their own "Best Path Decision" 
 process themselves.
 
-
-
+[Back to Home](./)
