@@ -7,9 +7,9 @@ RFC 4271 specifies that the Decision process takes place between 3 distinct phas
  
 The 3 phases are:
  
-**Phase 1** - Calculating the degree of preference for each new route received from an active peer.
-**Phase 2** - Triggered by Phase 1 completing, Phase 2 chooses the best path out of all available routes and installs the best path into the Loc-RIB.
-**Phase 3** - Triggered by Phase 2 completing, Phase 3 disseminate the new route between to its active peers.
+* **Phase 1** - Calculating the degree of preference for each new route received from an active peer.
+* **Phase 2** - Triggered by Phase 1 completing, Phase 2 chooses the best path out of all available routes and installs the best path into the Loc-RIB.
+* **Phase 3** - Triggered by Phase 2 completing, Phase 3 disseminate the new route between to its active peers.
  
 _It's worth noting that these phases happen within every router/node that participates in the Boarder Gateway Process._
  
