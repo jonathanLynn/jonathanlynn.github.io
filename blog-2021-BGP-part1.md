@@ -16,9 +16,9 @@ _It's worth noting that these phases happen within every router/node that partic
 ### So how are these phases triggered?
  
 Phase 1 is triggered whenever a router participating in BGP receives an "UPDATE" message from an active peer. An "UPDATE" message is how two peer's communicate things such as:
--New Routes
--Replacement Routes
--Withdrawn Routes
+* -New Routes
+* -Replacement Routes
+* -Withdrawn Routes
  
 Once an "UPDATE" message is received, the router's job is to then calculate the degree of preference. Only when a new/replacement route is received, the router will follow these specific rules to identify which route to preference:
  
