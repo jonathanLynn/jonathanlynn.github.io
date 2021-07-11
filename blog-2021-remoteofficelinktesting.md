@@ -1,3 +1,5 @@
+[Back to Home](./)
+
 When ordering a new link from an Service Provider - I've found it a good practise to always
 record and document various tests to help when you need to troubleshoot a problem that runs over
 a particular line or understand from an accounting perspective what your paying for.
@@ -15,3 +17,4 @@ I really enjoy the fact that it records all these metrics for histoical purposes
 to understanding how long a problem as been lurking on a given link and what sort of usage over time a particular
 link has had.
 
+[Back to Home](./)
