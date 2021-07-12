@@ -2,4 +2,5 @@ After I wrote my last BGP blog I was doing some captures between Router's and no
 
 Below is the Topology I am working with for reference:
 
+![Topology](./assets/img/topology-bgp-updatepackets.png)
 
