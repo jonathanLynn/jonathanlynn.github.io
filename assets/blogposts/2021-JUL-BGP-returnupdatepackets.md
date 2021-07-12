@@ -1,4 +1,4 @@
-<a href="https://jonathanlynn.github.io/">Return Home</a>
+<a href="https://jonathanlynn.github.io/">Back to Home</a>
 
 After I wrote my last BGP blog I was doing some captures between Router's and noticed a very peculiar behaviour whenever a router that was duel-homed recieved a BGP UPDATE message from an upstream device.
 
@@ -24,4 +24,4 @@ Ofcourse, I wouldn't have seen this problem in any of the production envirorment
 
 Ah, peace at last with this problem.
 
-[Back to Home](./)
+<a href="https://jonathanlynn.github.io/">Back to Home</a>
