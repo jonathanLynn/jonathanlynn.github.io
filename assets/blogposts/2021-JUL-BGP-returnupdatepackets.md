@@ -2,7 +2,7 @@ After I wrote my last BGP blog I was doing some captures between Router's and no
 
 Below is the Topology I am working with for reference:
 
-<img src="https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/topology-bgp-updatepackets.png" width="100">
+<img src="https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/topology-bgp-updatepackets.png" width="500">
 '![Topology](https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/topology-bgp-updatepackets.png | width=100)'
 
 What I found was that whenever R1 sent an "UPDATE" message R2 would respond with its own UPDATE message back to R1 advising it of the routing change made as a result of R1's original update. When I look at a packet capture between R1 and R2 I indeed two UPDATE messages..
