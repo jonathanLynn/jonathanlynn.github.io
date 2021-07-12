@@ -3,15 +3,14 @@ After I wrote my last BGP blog I was doing some captures between Router's and no
 Below is the Topology I am working with for reference:
 
 <img src="https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/topology-bgp-updatepackets.png" width="600">
-'![Topology](https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/topology-bgp-updatepackets.png | width=100)'
 
 What I found was that whenever R1 sent an "UPDATE" message R2 would respond with its own UPDATE message back to R1 advising it of the routing change made as a result of R1's original update. When I look at a packet capture between R1 and R2 I indeed two UPDATE messages..
 
-![PacketCapture](https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/bgp-updatemessage-wireshark.png | width=100)
+<img src="https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/bgp-updatemessage-wireshark.png" width="600">
 
 Because BGP is designed to be loop free, when R1 recieves this update message it immediately recognises its own AS # within the route and drops the UPDATE as per the debug log below:
 
-![R1debug](https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/bgp-r1debugmessages.png | width=100)
+<img src="https://github.com/jonathanLynn/jonathanlynn.github.io/blob/master/assets/img/bgp-r1debugmessages.png" width="600">
 
 Puzzled - I tried to see if either R3 or R4 did the same however because these routers were single-homed they did not repeat any UPDATE messages. Like all puzzling questions I have, I took to the Cisco Community Page to try and understand why this behaviour would occur. I've seen other engineer's have this same issue but it was never successfully answered. Until now!
 
