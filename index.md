@@ -18,6 +18,7 @@ coming soon!
 
 ### CheatSheets
 
+* [IS-IS Cheatsheet](./assets/cheatsheet-isis.png)
 * BGP CheatSheet (coming soon!)
 
 ### Publications
