@@ -21,7 +21,7 @@ coming soon!
 * [IS-IS Cheatsheet](./assets/cheatsheet-isis.png)
 * [Cisco Viptela SD-WAN Cheatsheet](./assets/sdwan-1.png)
 
-<img src="./assets/sdwan-1.png" alt="sdwan-1" width="350"/>
+<img src="./assets/sdwan-1.png" alt="sdwan-1" width="600"/>
 
 * BGP CheatSheet (coming soon!)
 
