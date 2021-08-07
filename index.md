@@ -19,7 +19,7 @@ coming soon!
 ### CheatSheets
 
 * [IS-IS Cheatsheet](./assets/cheatsheet-isis.png)
-* [Cisco Viptela SD-WAN Cheatsheet](./assets/cheatsheet-sdwan.png)
+* [Cisco Viptela SD-WAN Cheatsheet](./assets/sdwan-1.png)
 * BGP CheatSheet (coming soon!)
 
 ### Publications
