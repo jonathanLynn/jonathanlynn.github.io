@@ -19,6 +19,9 @@ coming soon!
 ### CheatSheets
 
 * [IS-IS Cheatsheet](./assets/cheatsheet-isis.png)
+
+<img src="./assets/cheatsheet-isis.png" alt="cheatsheet-isis" width="600"/>
+
 * [Cisco Viptela SD-WAN Cheatsheet](./assets/sdwan-1.png)
 
 <img src="./assets/sdwan-1.png" alt="sdwan-1" width="600"/>
