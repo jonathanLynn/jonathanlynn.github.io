@@ -1,3 +1,5 @@
+<a href="https://jonathanlynn.github.io/">Back to Home</a>
+
 NAT - The Bandaid or The Cure?
 
 I've applied a fair amount of NAT (Network Address Translation) as an engineer and I often find
