@@ -7,6 +7,7 @@ layout: default
 
 ### Blog Posts
 
+* [2021 Aug - NAT - The Bandaid or The Cure?](./assets/blogposts/2021-AUG-Design-nat-thebandaidorthecure.html)
 * [2021 Jul - BGP - Return Update Packets?](./assets/blogposts/2021-JUL-BGP-returnupdatepackets.html)
 * [2021 Jul - BGP Deep Dive - Best Path Selection Critiera](./blog-2021-BGP-part1)
 * [2021 Mar - Your Automation Journey Can Start Anywhere](./blog-2021-startyourautomationjourney.html)
