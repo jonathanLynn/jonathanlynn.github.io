@@ -2,6 +2,8 @@
 
 NAT - The Bandaid or The Cure?
 
+![natmeme](/assets/img/natmeme.png)
+
 I've applied a fair amount of NAT (Network Address Translation) as an engineer and I often find
 myself feeling disguisting afterwards. Sure, the business cheers with joy because it works and
 their requirements are met but as an engineer I feel like I loaded a sawdof shotgun and just unloaded
