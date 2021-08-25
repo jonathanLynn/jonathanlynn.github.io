@@ -5,7 +5,7 @@ time to formalise a few of my notes that I took during the course that for me we
 We got to learn the basic deployment methods of Deep Security. My focus was understanding the components and the relationships between the Manager (known as DSM), Relay, Modules
 and the agents. Below is a quick sketch I took in draw.io to help me put those puzzle peices together.
  
- <INSERT OVERALL ARCHITECTURE DESIGN/RELATIONSHIPS HERE>
+![dsdesign](/assets/img/deepsecurityarchitecture.png)
  
  Deep Security offers 7 protection modules that can be enabled on any host compatible with running the Agent software which include:
   * **Anti Malware** - The title doesn't lie, this module protects hosts from viruses, trojans, spyware and ransomware.
