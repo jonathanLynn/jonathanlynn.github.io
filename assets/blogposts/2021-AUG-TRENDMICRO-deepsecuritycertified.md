@@ -5,6 +5,7 @@ time to formalise a few of my notes that I took during the course that for me we
 We got to learn the basic deployment methods of Deep Security. My focus was understanding the components and the relationships between the Manager (known as DSM), Relay, Modules
 and the agents. Below is a diagram from the course material that outlines the big picture of Deep Security.
  
+
 ![dsdesign](/assets/img/deepsecurityarchitecture.png)
  
  Deep Security offers 7 protection modules that can be enabled on any host compatible with running the Agent software which include:
@@ -18,7 +19,10 @@ and the agents. Below is a diagram from the course material that outlines the bi
 
 Within a standard Deep Security Deployment there are 4 main things you'll need:
 
-1. Deep Security Manager (DSM) - The Manager is your main tool as the Administrator. It is where you can make individual host changes or global Policy changes on the fly. Additionally, its also where you'll find reporting and centralised logging. There are many more features of DSM but these are the main to get you up and running. Currently in Deep Security 20 you can install the Manager on Windows Server 2012/2016/2019 or on RHEL 7/8. 
+1. Deep Security Manager (DSM) - The Manager is your main tool as the Administrator. It is where you can make individual host changes or global Policy changes on the fly. Additionally, its also where you'll find reporting and centralised logging. There are many more features of DSM but these are the main to get you up and running. Currently in Deep Security 20 you can install the Manager on Windows Server 2012/2016/2019 or on RHEL 7/8. Here is a little diagram outlinig the architecture of the DSM:
+
+![dsmarchitecture](/assets/img/dsmarchitecture.png)
+
 2. Database - This is where all the data that the Manager displays (and more!) is stored. Latency is important as its recommended that a two millisecond latency or lower between the Manager and the database is setup. Compatible databases include Microsoft SQL Server 2012/2014/2016/2017/2019 along with Oracle, PostgreSQL and Cloud based databases for SAAS deployments.
 3. Deep Security Relay - A Relay is essentially a host (with the Deep Security Agent installed) that has access to the Trend Cloud in order to download and distribute security updates across your agents. The Manager is where you can advance a standard Trend Host as a Relay.
 4. Deep Security Agent - This is the software itself thats installed on a compatible host. This is the mechanism on the host that enforces the pre-defined security posture and communicates back to the DSM to obtain policy updates ect (This is known as the heartbeat).
