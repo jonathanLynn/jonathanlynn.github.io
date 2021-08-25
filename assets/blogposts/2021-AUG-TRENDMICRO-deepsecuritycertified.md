@@ -3,7 +3,7 @@ The 4 day course was well delivered and ended with myself passing the certificat
 time to formalise a few of my notes that I took during the course that for me were important from both an understanding and architectural design point of view.
 
 We got to learn the basic deployment methods of Deep Security. My focus was understanding the components and the relationships between the Manager (known as DSM), Relay, Modules
-and the agents. Below is a quick sketch I took in draw.io to help me put those puzzle peices together.
+and the agents. Below is a diagram from the course material that outlines the big picture of Deep Security.
  
 ![dsdesign](/assets/img/deepsecurityarchitecture.png)
  
