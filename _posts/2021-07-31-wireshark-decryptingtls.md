@@ -9,7 +9,27 @@ I've found that there are two ways which is either importing the server side pri
 
 With that being said, If you have access to a private key here is where you can stash it in Wireshark:
 
-![theme logo](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-1.png){:.ioda}
+![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-1.png){:.ioda}
+
+Simply define the IP address, Port, Protocol (ie http) and the key file (and optionally password) and your off! It will stay valid and decrypt any TLS session your client establishes to that IP address until that key expires and or is rotated.
+
+If you don't have access to the private keys which is the case for many if not all external web servers then we need to focus on the TLS session keys found here:
+
+![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-2.png){:.ioda}
+
+A quick way of doing this on a Windows 10 client is to:
+
+1. Create an environment variable in System Preference with the below information:
+
+![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-3.png){:.ioda}
+
+2. Configure wireshark to look at the premaster key here:
+
+![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-4.png){:.ioda}
+
+3. Kick off a capture, close and re-open your browser and start browsing to somewhere. In  this example I visited Microsoft.com and you can see Wireshark is decrypting the TLS session and showing me the HTTP traffic:
+
+![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-5.png){:.ioda}
 
 ---
 
