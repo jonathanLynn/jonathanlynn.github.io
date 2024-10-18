@@ -19,15 +19,15 @@ If you don't have access to the private keys which is the case for many if not a
 
 A quick way of doing this on a Windows 10 client is to:
 
-1. Create an environment variable in System Preference with the below information:
+Create an environment variable in System Preference with the below information:
 
 ![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-3.png){:.ioda}
 
-2. Configure wireshark to look at the premaster key here:
+Configure wireshark to look at the premaster key here:
 
 ![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-4.png){:.ioda}
 
-3. Kick off a capture, close and re-open your browser and start browsing to somewhere. In  this example I visited Microsoft.com and you can see Wireshark is decrypting the TLS session and showing me the HTTP traffic:
+Kick off a capture, close and re-open your browser and start browsing to somewhere. In  this example I visited Microsoft.com and you can see Wireshark is decrypting the TLS session and showing me the HTTP traffic:
 
 ![wireshark](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-5.png){:.ioda}
 
