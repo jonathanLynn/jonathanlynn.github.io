@@ -1,0 +1,18 @@
+---
+layout: post
+slug: wireshark-decryptingtls
+---
+
+Decrypting a TLS session using Wireshark could not be more easier. Recently I've been investing a lot of my time into understanding TLS, both the history and also the implementation. In this blog post I want to show you how you can use Wireshark to decrypt a TLS session.
+
+I've found that there are two ways which is either importing the server side private key into Wireshark or using the TLS session key to decrypt that particular traffic. In some smaller environments accessing the private key for the web server is trivial but when your troubleshooting something more robust or an external web server often you won't have the luxury of having access to the private key because after all, private keys need to stay private for a reason!
+
+With that being said, If you have access to a private key here is where you can stash it in Wireshark:
+
+![theme logo](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/wireshark-menu-1.png){:.ioda}
+
+---
+
+Feel free to reach out at my email to leave feedback and talk about the article.
+
+---
