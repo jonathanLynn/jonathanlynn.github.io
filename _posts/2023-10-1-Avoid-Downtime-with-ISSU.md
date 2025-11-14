@@ -1,6 +1,7 @@
 ---
 layout: post
 slug: Avoiding Downtime? Use ISSU for Cisco NXOS
+category: Data Center
 ---
 
 I don't know about you but downtime is an absolute pain in my A$$. I should clarify my previous statement is more so to do with Data Centres than say a small retail store. The Data Centre (at least in my experience) is always where the mission critical infrastructure sits and it can be really difficult (mere impossible) to take downtime. It's almost the perfect story for advasaries right? Org's are slower in this space to patch vulnerabilities and attackers get more time to infiltrate.
