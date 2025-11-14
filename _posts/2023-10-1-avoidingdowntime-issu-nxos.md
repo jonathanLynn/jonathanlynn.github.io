@@ -13,8 +13,6 @@ When I tried this the other week it worked like a charm. my vPC/OSPF/NVE Peers a
 
 1. Validate the upgrade path from your current and target firmware are ISSU supported*. 
 
-![ISSU](https://raw.githubusercontent.com/jonathanlynn/jonathanlynn.github.io/master/images/Cisco-Nexus-ISSU-Website.png){:.ioda}
-
 2. Copy the firmware over to your Nexus switch and run the below command that should give you the OK to proceed with ISSU for a list of things that need rectifying beforehand to use ISSU.
 
 #show incompatibility nxos bootflash:filename
