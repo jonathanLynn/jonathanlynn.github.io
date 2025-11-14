@@ -1,6 +1,6 @@
 ---
 layout: post
-slug: wireshark-decryptingtls
+slug: Decrypting TLS with Wireshark
 ---
 
 Decrypting a TLS session using Wireshark could not be more easier. Recently I've been investing a lot of my time into understanding TLS, both the history and also the implementation. In this blog post I want to show you how you can use Wireshark to decrypt a TLS session.
